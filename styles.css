@@ -361,6 +361,7 @@ footer .social-icons a {
   background-attachment: fixed; /* Efek parallax (opsional) */
   color: white; /* Warna teks agar kontras dengan background */
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #komen h2 {
@@ -376,7 +377,5 @@ footer .social-icons a {
 #commento {
   /* background-color: aqua; */
   width: 100%;
-  background-color: #007bff;
-  color: white;
   border-radius: 13px;
 }
