@@ -56,10 +56,3 @@ document.addEventListener('keydown', function(e) {
       e.preventDefault();
   }
 });
-
-
-document.addEventListener('visibilitychange', function() {
-  if (document.visibilityState === 'hidden') {
-      alert('Jangan Gitu atau mau di sebarin Muka kamu?!!!!');
-  }
-});
