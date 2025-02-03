@@ -27,3 +27,39 @@ function toggleMenu() {
       navLinks.classList.remove("active");
     }
   });
+
+
+  document.addEventListener('contextmenu', function(e) {
+    e.preventDefault(); // Mencegah menu klik kanan
+});
+
+document.addEventListener('copy', function(e) {
+    e.preventDefault(); // Mencegah salin teks
+});
+
+document.addEventListener('cut', function(e) {
+    e.preventDefault(); // Mencegah potong teks
+});
+
+
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 123) { // F12
+      e.preventDefault();
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == 73) { // Ctrl + Shift + I
+      e.preventDefault();
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == 74) { // Ctrl + Shift + J
+      e.preventDefault();
+  }
+  if (e.ctrlKey && e.keyCode == 85) { // Ctrl + U
+      e.preventDefault();
+  }
+});
+
+
+document.addEventListener('visibilitychange', function() {
+  if (document.visibilityState === 'hidden') {
+      alert('Jangan Gitu atau mau di sebarin Muka kamu?!!!!');
+  }
+});
