@@ -70,7 +70,7 @@ nav .nav-links a {
 
 /* Home Section */
 .home-section {
-  background: url("images/bg.jpg") no-repeat center center/cover;
+  background: url("images/bendahara2.jpeg") no-repeat center center/cover;
   background-attachment: fixed;
   height: 100vh;
   display: flex;
@@ -128,7 +128,7 @@ nav .nav-links a {
 .struktur-section {
   padding: 60px 20px;
   text-align: center;
-  background: url("images/bg-2.jpg") no-repeat center center/cover; /* Background gambar */
+  background: url("images/bendahara2.jpeg") no-repeat center center/cover; /* Background gambar */
   background-attachment: fixed; /* Efek parallax (opsional) */
   color: white; /* Warna teks agar kontras dengan background */
 }
